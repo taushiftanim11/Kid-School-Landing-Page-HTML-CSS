@@ -2,6 +2,11 @@
     .a{
         width: 358px;
     }
+    h2{
+        font-size: 26px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
     .nav-logo span{
         display: none;
     }
@@ -53,5 +58,30 @@
     .hero-section .btn-primary{
         padding: 11px 26px;
         font-size: 16px;
+    }
+
+    .curriculum-s{
+        background-image: none;
+    }
+    .curriculum-cards{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .curriculum-card{
+        row-gap: 21px;
+        padding: 35px 40px;
+    }
+    .curriculum-card h3{
+        font-size: 21px;
+    }
+    .curriculum-card p{
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .curriculum-card a{
+        font-size: 11px;
+    }
+    .curriculum-cards-move{
+        display: none;
     }
 }
