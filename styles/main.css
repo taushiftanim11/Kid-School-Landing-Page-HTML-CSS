@@ -12,7 +12,7 @@ body{
 }
 .a{
     margin: 0 auto;
-    width: 1140px;
+    max-width: 1150px;
 }
 ul{
     margin:  0;
@@ -21,7 +21,7 @@ ul{
     padding: 12.5px 61px;
     font-size: 20px;
     font-weight: 500;
-    background-color: black;
+    background-color: #111111;
     color: white;
     border-radius: 12px;
     outline: none;
@@ -50,13 +50,12 @@ ul{
 .nav ul{
     display: flex;
     list-style: none;
-    align-self: center;
     padding: 0;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
-.nav a{
+.nav li>a{
     font-size: 20px;
     padding: 0 15px;
     text-decoration: none;
@@ -75,4 +74,43 @@ ul{
 }
 .nav .btn-primary{
     background-color: #FAA304;
+}
+.menu{
+    display: none;
+}
+
+
+
+
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-s h1,
+.cta-s h1 *{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 61px;
+}
+.cta-s h1{
+    max-width: 580px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    color: #202020;
+}
+.cta-h1{
+    color: #FAA304;
+}
+.cta-h2{
+    color: #00ACFD;
+}
+.hero-section P{
+    color: #202020;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 620px;
 }
