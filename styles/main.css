@@ -122,8 +122,17 @@ ul{
     font-weight: 400;
     max-width: 620px;
 }
+.hero-section button{
+    margin-top: 20px;
+}
 
-
+marquee{
+    color: #111111;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
 
@@ -207,6 +216,13 @@ ul{
 }
 
 
+
+
+.story-a{
+    background: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 .story-s{
     background: rgb(249,221,173);
     background: linear-gradient(0deg, rgba(249,221,173,1) 0%, rgba(255,255,255,1) 100%);
@@ -311,4 +327,59 @@ ul{
 .story-a button{
     margin-top: 80px;
     margin-bottom: 60px;
+}
+
+
+.footer-s{
+    background-color: #00ACFD;
+}
+.footer-a{
+    padding-top: 90px;
+    padding-bottom: 175px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-a *{
+    color: white;
+}
+.footer-s h4 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.fs1{
+    max-width: 390px;
+}
+.fs1-logo{
+    display: flex;
+    align-items: center;
+}
+.fs1-logo span{
+    font-weight: 700;
+    font-size: 42px;
+    margin-left: 10px;
+    line-height: 38px;
+}
+.fs1 p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.fs2 ul{
+    padding: 0;
+    list-style: none;
+}
+.fs2 li{
+    padding: 8px 0px;
+}
+.fs2li1{
+    padding-top: 0 !important;
+}
+.fs2 a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.fs3 ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    column-gap: 6px;
 }
