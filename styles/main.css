@@ -205,3 +205,110 @@ ul{
     padding: 15.5px 20.2px;
     border-radius: 50%;
 }
+
+
+.story-s{
+    background: rgb(249,221,173);
+    background: linear-gradient(0deg, rgba(249,221,173,1) 0%, rgba(255,255,255,1) 100%);
+}
+.story-a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.story-section{
+    display: flex;
+    align-items: start;
+    column-gap: 20px;
+}
+.story-left-cards{
+    width: 540px;
+    background: white;
+    border-radius: 16px;
+}
+.story-left-cards img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.story-left-card-info{
+    padding: 5px 35px 54px 35px;
+    position: relative;
+}
+.story-left-card-info span{
+    background-color: #48D8E8;
+    border-radius: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    top: -0%;
+    transform: translateY(-50%);
+    margin-top: -5px;
+    color: white;
+    padding: 13.5px 18.14px;
+}
+.story-left-card-info h3{
+    margin: 40px 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+.story-left-card-info p{
+    color: #707070;
+    font-size: 16px;
+}
+.story-cards{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.story-card{
+    width: 290px;
+    background: white;
+    border-radius: 16px;
+}
+.story-card img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.story-card-info{
+    padding: 35px 35px 30px 35px;
+    position: relative;
+}
+.story-card-info span{
+    border-radius: 48px;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    top: -0%;
+    transform: translateY(-50%);
+    margin-top: -5px;
+    color: white;
+    padding: 8.5px 18.14px;
+}
+.sc1 span{
+    background-color: #95B226;
+}
+.sc2 span{
+    background-color: #5D58F0;
+}
+.sc3 span{
+    background-color: #95B226;
+}
+.sc4 span{
+    background-color: #95B226;
+}
+.story-card-info h3{
+    margin: 0px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+}
+.story-a button{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
